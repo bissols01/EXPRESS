@@ -2,7 +2,7 @@ var createError = require('http-errors'); //Importo la libreria per la gestione 
 
 var express = require('express');
 var router = express.Router();
-
+var country = require('countryjs');
 
 
 router.get('/pages/:state/', function(req, res, next){
